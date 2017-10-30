@@ -5,7 +5,6 @@ package com.example.pb221.vendaq;
  */
 
 public class SupplierPOJO {
-
     private String supplierName;
     private String vijay;
 

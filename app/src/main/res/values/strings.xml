@@ -6,6 +6,7 @@
     <string name="title_products">Products</string>
     <string name="btn_import">Import</string>
     <string name="btn_apply">Apply Filter</string>
+
     <string name="btn_remove_cash">Remove Cash</string>
     <string name="btn_more_filter">More Filter</string>
     <string name="btn_add_cash">Add Cash</string>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_weight="10"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tvItemName"
+            style="@style/normalTextStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Name" />
+
+        <TextView
+            android:id="@+id/tvItemType"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Type" />
+
+        <TextView
+            android:id="@+id/tvItemDate"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Date" />
+
+        <TextView
+            android:id="@+id/tvItemDelieveryDue"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Dilevery date" />
+
+        <TextView
+            android:id="@+id/tvItemNumber"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Number" />
+
+        <TextView
+            android:id="@+id/tvItemOutlet"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Outlet" />
+
+        <TextView
+            android:id="@+id/tvItemSource"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Source" />
+
+        <TextView
+            android:id="@+id/tvItemStatus"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Status" />
+
+        <TextView
+            android:id="@+id/tvItemItems"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Items" />
+
+        <TextView
+            android:id="@+id/tvItemTotalCost"
+            style="@style/normalTextStyle"
+
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="Total Cost" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="20dp"
+            android:layout_weight="0.5"
+            android:src="@drawable/ic_login_vend"></ImageView>
+    </LinearLayout>
+
+</LinearLayout>

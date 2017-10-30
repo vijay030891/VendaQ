@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/side_margin"
+        android:orientation="horizontal"
+        android:weightSum="10">
+
+        <TextView
+            android:id="@+id/tvItemProductName"
+
+            style="@style/NormalTextStyleGray"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Jimmys Roasting Beans" />
+
+        <TextView
+            android:id="@+id/tvItemNoOfProducts"
+
+            style="@style/NormalTextStyleGray"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="12" />
+
+        <TextView
+            android:id="@+id/tvItemViewProduct"
+            style="@style/NormalTextStyleGray"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="View Products" />
+
+        <ImageView
+            android:id="@+id/tvItemEditProduct"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_login_vend" />
+
+
+        <ImageView
+            android:id="@+id/tvItemDeleteProduct"
+            android:layout_width="0dp"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/ic_login_vend" />
+    </LinearLayout>
+</LinearLayout>
